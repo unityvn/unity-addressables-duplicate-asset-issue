@@ -1,9 +1,9 @@
-# 🎯 Addressables – Phân tích vấn đề & Giải pháp
+# 🎯 Unity Addressables – Case study về Asset bị nhân đôi
 
 ## ❓ Vấn đề
 - Có một **ScriptableObject (SO)** được sử dụng để:
-  1. Lưu trữ dữ liệu cấu hình (config data).  
-  2. Chứa một `List` được khởi tạo ở runtime, thông qua tham chiếu từ một GameObject trong Scene.  
+  - Lưu trữ dữ liệu cấu hình (config data).  
+  - Chứa một `List` được khởi tạo ở runtime, thông qua tham chiếu từ một GameObject trong Scene.  
 
 - Cấu trúc trong project:
   - **Prefab** nằm trong Addressables.  
